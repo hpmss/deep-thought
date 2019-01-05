@@ -123,7 +123,3 @@ sizes = [3072,100,10]
 network = DeepFeedForwardNetwork(x_train,y_train,sizes,0.9,iteration=1000)
 network.train(15)
 network.save_network("network.psd")
-#Hello World
-#Test
-## HACK:
-#Test
